@@ -111,7 +111,7 @@ db.movies.insertOne({
     cast: [
         'Acty Actor',
     ],
-    title: "Example Movie",
+    title: "The Big Bad Movie",
     countries: [ 'USA' ],
     released: ISODate('1930-01-01T00:00:00.000Z'),
     directors: [ 'Director Name' ],
