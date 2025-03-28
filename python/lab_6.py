@@ -61,7 +61,7 @@ print('\n5 new documents created')
 # Display 3 out of 5 documents by filtering only for outdoor sports
 outdoor_sports = sports.find({"indoor": False})
 
-print('\nOutdoor Sports (Showing up to 3):')
+print('\nOutdoor Sports:')
 for sport in outdoor_sports:
     print(dumps(sport, indent=2))
 
