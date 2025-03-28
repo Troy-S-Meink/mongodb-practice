@@ -5,14 +5,14 @@ import os
 from db import *
 
 stats = client.stats
-print(stats)
+print('stats:\t', stats)
 
 dbs = client.list_database_names()
-print(dbs)
+print('\nDBs:\t', dbs)
 
 thisdb = client.sample_restaurants
-colls = thisdb.list_collection_names()
-print(colls)
+cols = thisdb.list_collection_names()
+print('\ncols:\t', cols, '\n')
 
 restaurants = thisdb.restaurants
 count = restaurants.count_documents({})
