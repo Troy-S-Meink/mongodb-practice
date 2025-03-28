@@ -20,7 +20,7 @@ print('\nCollection Created:\t', sports)
 
 # 2.
 # Add five documents into the new collection
-sports.delete_many({})  # Deleting all collections beforehand
+sports.delete_many({})  # Deleting all previous documents beforehand
 
 sport_1 = {
     "name": "Swimming",
